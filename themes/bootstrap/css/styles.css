@@ -1,0 +1,249 @@
+#page {
+    padding-top: 60px;
+}
+
+
+
+.user-list .column-id {
+    width: 85px;
+    text-align: center;
+}
+
+.user-list .table .column-login {
+    padding-left: 20px;
+}
+
+.user-list .column-tools {
+    width: 95px;
+}
+
+.user-list td.column-tools a {
+    visibility: hidden;
+}
+
+.user-list tr:hover td.column-tools a {
+    visibility: visible;
+}
+
+.user-form .table,
+.user-form .table td {
+    border: none;
+}
+
+.worker-form {
+    width: 100%;
+    max-width: 500px;
+    margin:5px;
+    padding: 5px;
+    border: 1px #d3d3d3 solid;
+    border-radius: 5px;
+}
+
+.worker-form label {
+    min-width: 200px;
+}
+
+.form-row {
+    min-height: 40px;
+}
+
+.worker-form .button-row {
+    text-align: center;
+}
+
+.worker-list .table-header {
+    margin-bottom: 0;
+}
+
+.worker-list .column-num {
+    width: 35px;
+    text-align: center;
+}
+
+.worker-list .column-nick {
+    width: 95px;
+}
+
+.worker-list .column-name {
+    width: 110px;
+}
+
+.worker-list .column-birthday,
+.worker-list .column-employment-date,
+.worker-list .column-contract-date {
+    width: 80px;
+    text-align: center;
+}
+
+.worker-list .column-phone {
+    width: 110px;
+    text-align: center;
+}
+
+.worker-list .column-project {
+    width: 100px;
+    text-align: center;
+}
+
+.worker-list .column-chief {
+    width: 100px;
+    text-align: center;
+}
+
+.worker-list .column-salary {
+    width: 70px;
+    text-align: center;
+}
+
+.worker-list .column-comment{
+    padding-left: 5px;
+    width: 200px;
+}
+
+.worker-list .column-tools div {
+    min-width: 50px;
+}
+
+.worker-list .table {
+    table-layout: fixed;
+}
+
+.worker-list .table-body {
+    height: 500px;
+    overflow-y: auto;
+    border: #d3d3d3 1px solid;
+    border-top: none;
+}
+
+.worker-list .table-body table,
+.worker-list .table-body tr,
+.worker-list .table-body tr td:first-child {
+    border-left: none;
+}
+
+.table .column-tools {
+
+    vertical-align: middle;
+    text-align: center;
+}
+
+.table.table-header {
+    border-bottom: none;
+}
+
+.table-body thead {
+    display: none;
+}
+
+.salary-form {
+    width: 380px;
+}
+
+.salary-form label {
+    width: 120px;
+}
+
+.form-row.button-row {
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+.table td form div input,
+.table td div input {
+     width: 100%;
+     box-sizing: border-box;
+ }
+
+.editable-controls.error{
+    position: relative;
+}
+
+.editable-controls.error .editable-error{
+    position: absolute;
+    background: #d3d3d3;
+    border-radius: 5px;
+    top: 25px;
+    padding: 3px;
+
+}
+
+.editable-click, a.editable-click {
+    border-bottom: none;
+}
+
+.table td div  input {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 2px 1px;
+    height: 24px;
+    font-size: 9pt;
+}
+
+.table th, .table td {
+    font-size: 9pt;
+    padding: 2px 1px;
+    box-sizing: border-box;
+}
+
+.column-name {
+    word-wrap: break-word;
+}
+
+table.table thead th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.salaries-list form {
+    width: 100%;
+}
+
+.salaries-list .column-id div{
+    width: 20px;
+}
+
+.salaries-list table .column-creator div{
+    width: 75px;
+}
+
+.salaries-list table .column-amount div{
+    width: 60px;
+}
+
+.salaries-list table .column-date div {
+    width: 90px;
+}
+
+.salaries-list .column-id,
+.salaries-list .column-creator,
+.salaries-list .column-amount,
+.salaries-list .column-date,
+.salaries-list td.column-isactive {
+    text-align: center;
+}
+
+
+form div.form-row label,
+form div.form-row input {
+    font-size: 9pt;
+}
+
+.commands-row {
+    text-align: right;
+    padding: 5px;
+}
+
+.alert {
+    margin-bottom: 3px;
+    padding: 3px;
+}
+
+.messages {
+    min-height: 32px;
+    padding: 2px 50px;
+    border-radius: 4px;
+}
+.table tr.empty-list td div input {
+	display: none;
+}

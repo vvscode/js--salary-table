@@ -1,0 +1,1 @@
+<h1>Default salary table page</h1>

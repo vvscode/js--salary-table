@@ -1,0 +1,1 @@
+<h1>Default about page</h1>
